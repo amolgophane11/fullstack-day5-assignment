@@ -1,3 +1,4 @@
+//Question:1 anonynous function and iife
 ====================================
 //sum of all numbers from array with annonymous function.
 
@@ -12,7 +13,7 @@ let sumOfArrays=function(x){
 }
 
 console.log(sumOfArrays(array));
-output: 145
+//output: 145
 
 //sum of all numbers from array with IIFE
 
@@ -49,7 +50,7 @@ let OddNumber =function(x) {
 }
 console.log(OddNumber(array))
 
-output:23,45,11
+//output:23,45,11
 
 //odd nuber from given array with IIFE function
 
@@ -66,7 +67,7 @@ let odd=(function(array){
              
              console.log(odd.join(","))
 
-output:23,45,11
+//output:23,45,11
 
 ============================
     
@@ -128,7 +129,7 @@ let primeNumber=(function(x) {
 
 console.log(primeNumber)
 
-output:[ 23,11 ]
+//output:[ 23,11 ]
 
 =========================================================
 
